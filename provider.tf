@@ -1,9 +1,9 @@
 terraform {
   required_version = ">= 0.12"
   backend "gcs" {
-    bucket      = "kopicloud-global-gsb"
+    bucket      = "terraremote-bucket85558"
     prefix      = "root\network-tfsate"
-    credentials = "garden-green-456813-8fa36bbabd8c.json"
+    credentials = "calcium-post-282611-3d088c407491.json"
   }
 }
 provider "google" {
