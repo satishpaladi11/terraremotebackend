@@ -1,7 +1,7 @@
 # GCP Settings
-gcp_project = "garden-green-456813"
-gcp_region  = "europe-west4"
-gcp_auth_file = "../auth/garden-green-456813-8fa36bbabd8c.json"
+gcp_project = "calcium-post-282611"
+gcp_region  = "us-central1"
+gcp_auth_file = "/calcium-post-282611-3d088c407491.json"
 # Bucket
-bucket-name   = "kopicloud-global-gsb" 
+bucket-name   = "terraremote-bucket85558" 
 storage-class = "REGIONAL"
