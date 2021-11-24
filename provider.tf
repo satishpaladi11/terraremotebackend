@@ -1,7 +1,5 @@
 terraform {
   required_version = ">= 0.12"
-  backend "gcs" {
-  }
 }
 provider "google" {
   credentials = file(var.gcp_auth_file)
