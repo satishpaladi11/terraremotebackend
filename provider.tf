@@ -1,9 +1,6 @@
 terraform {
   required_version = ">= 0.12"
   backend "gcs" {
-    bucket      = "terraremote-bucket85558"
-    prefix      = "network-tfsate"
-    credentials = "calcium-post-282611-3d088c407491.json"
   }
 }
 provider "google" {
